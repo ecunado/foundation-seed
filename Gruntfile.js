@@ -9,7 +9,8 @@ module.exports = function (grunt) {
 
     // Clean task
     clean: {
-      dist: ['dist/*', 'temp/*']
+      pre: ['dist/*', 'temp/*'],
+      post: ['dist/vendor']
     },
 
     // Copy src contents into dist folder
@@ -20,7 +21,7 @@ module.exports = function (grunt) {
           dot: true,
           cwd: 'src/',
           dest: 'dist/',
-          src: ['*', 'css/**', 'js/**', 'images/**'],
+          src: ['*', 'css/**', 'vendor/**', 'js/**', 'images/**'],
           filter: 'isFile'
         }]
       }
@@ -155,9 +156,10 @@ module.exports = function (grunt) {
   // Dist
   grunt.registerTask('dist', [
     'sass',
-    'clean',
+    'clean:pre',
     'copy',
-    'optimize'
+    'optimize',
+    'clean:post'
   ]);
 
 };
