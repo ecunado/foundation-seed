@@ -1,7 +1,7 @@
 {
   "name": "foundation-seed",
   "version": "0.0.1",
-  "description": "Simple foundation seed with grunt, sass, asset pipeline and livereload",
+  "description": "Simple foundation 5 seed with grunt, sass, asset pipeline and livereload",
   "repository": {
     "type": "git",
     "url": "https://github.com/ecunado/foundation-seed.git"
