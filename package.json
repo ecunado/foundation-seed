@@ -1,0 +1,40 @@
+{
+  "name": "foundation-seed",
+  "version": "0.0.1",
+  "description": "Simple foundation seed with grunt, sass and asset pipeline and livereload",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecunado/foundation-seed.git"
+  },
+  "keywords": [
+    "foundation",
+    "sass",
+    "livereload",
+    "seed"
+  ],
+  "author": {
+    "name": "Ezequiel Cuñado"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ecunado/foundation-seed/issues"
+  },
+  "devDependencies": {
+    "node-sass": "~0.7.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-sass": "~0.8.0",
+    "load-grunt-tasks": "^0.5.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-imagemin": "^0.7.1",
+    "grunt-usemin": "^2.2.0",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-filerev": "^0.2.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-open": "^0.2.3"
+  },
+  "readmeFilename": "README.md"
+}

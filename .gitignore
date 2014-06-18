@@ -1,0 +1,8 @@
+*.DS_Store
+/css/*
+/vendor/*
+/node_modules/*
+/temp
+/dist
+.tmp/
+.temp/
