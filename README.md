@@ -13,7 +13,8 @@ You'll need to have the following items installed before continuing.
 ## Quickstart
 
 ```bash
-git clone git@github.com:ecunado/foundation-seed.git
+git clone git@github.com:whynotsoluciones/foundation-seed.git
+cd foundation-seed
 npm install && bower install
 ```
 
